@@ -1,7 +1,14 @@
 {
   "name": "editifyjs",
   "version": "0.1.0",
-  "private": true,
+  "author": "Omer Celik",
+  "description": "Modern, block-style, completely free (MIT license) and pioneering Vue editor",
+  "license": "MIT",
+  "keywords": ["vue", "editor", "modern", "block-style", "browserify"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/editifyjs/editify.git"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",

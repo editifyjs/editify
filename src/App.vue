@@ -22,13 +22,13 @@
       time: " {{ new Date() }}"
     </div>
     <h2>Bugs and features that continue to develop &#128373;🛠️</h2>
-    <div class="container">
+    <v-container class="container">
       <Features />
-    </div>
+    </v-container>
     <h2>Write us for your suggestions and comments &#9997;&#10024;</h2>
-    <div class="container">
+    <v-container class="container">
       <Comments />
-    </div>
+    </v-container>
     <Footer />
   </v-app>
 </template>
@@ -138,17 +138,15 @@ export default {
 
 <style scoped>
 .container {
-  width: 100%;
   height: auto;
   border-radius: 1rem;
   color: #435b71;
-  padding: 2% 7% 2% 5%;
+  padding: 4% 4% 4% 4%;
   border: 1px solid #435b71;
-  position: relative;
   overflow-x: auto;
   overflow-y: hidden;
   white-space: nowrap;
-  margin-bottom: 10%;
+  margin-bottom: 100px;
 }
 
 h2 {

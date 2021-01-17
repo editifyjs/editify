@@ -40,14 +40,29 @@
       rows="4"
       placeholder="type comment..."
     ></v-textarea>
-
-    <v-btn :disabled="!valid" color="success" class="mr-4" @click="validate">
-      Send
-    </v-btn>
-
-    <v-btn color="error" class="mr-4" @click="reset"> Reset Form </v-btn>
-
-    <v-btn color="warning" @click="resetValidation"> Reset Validation </v-btn>
+    <v-row>
+      <v-col cols="12" md="4">
+        <v-btn
+          :disabled="!valid"
+          color="success"
+          class="mr-4"
+          @click="validate"
+          block
+        >
+          Send
+        </v-btn>
+      </v-col>
+      <v-col cols="12" md="4">
+        <v-btn color="error" class="mr-4" @click="reset" block>
+          Reset Form
+        </v-btn>
+      </v-col>
+      <v-col cols="12" md="4">
+        <v-btn color="warning" @click="resetValidation" block>
+          Reset Validation
+        </v-btn>
+      </v-col>
+    </v-row>
   </v-form>
 </template>
 
